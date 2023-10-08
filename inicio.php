@@ -1,0 +1,83 @@
+<!DOCTYPE Html>
+<Html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href=
+"https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="CSS/style.css">
+    <title>Manzanas del Cuidado</title>
+</head>
+<body>
+    <!-- encadezado -->
+    <header class="header">
+        <nav>
+            <img class="icono" src="IMG/investigar.png" alt="">
+            <ul>
+                <li><a href="Registro_usuarios.php">Registro</a></li>
+                <li><a href="Registro_manzana.php">Manzanas</a></li>
+                <li><a href="Registro_Establecimiento.php">Establecimiento</a></li>
+                <li><a href="inicio.html">Salir</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="hea">
+        <h1>MANZANAS DEL CUIDADO</h1>
+        <p>Las Manzanas del Cuidado son espacios de la ciudad en los que se brinda tiempo y servicios a las mujeres y a sus familias.</p>
+        <a href="#">Informate</a>
+    </div>
+    <div class="multi">
+        <img src="IMG/multicultural.avif" alt="">
+    </div>
+    <!-- servicios -->
+    <section class="servicio">
+        <p>En las Manzanas del Cuidado las cuidadoras tienen tiempo y servicios gratuitos, aquí pueden: </p>
+        <ul>
+            <li>Estudiar</li>
+            <li>Emprender</li>
+            <li>Emplearse</li>
+            <li>Descansar</li>
+            <li>Ejercitarse</li>
+            <li>Recibir Orientacion</li>
+            <li>Asesorias Juridicas</li>
+            <li>Asesorias Psicologicas</li>
+            <li>Lavanderías Comunitarias</li>
+        </ul>
+        <p>Todo totalmente gratis.</p>
+    </section>
+    <!-- registro -->
+    <section class="registro" id="regi">
+        <h1>INSCRIPCIONES</h1>
+        <div class="inscriciones">
+            <div class="inscri in-1">
+                <img class="ico" src="IMG/edificio.png" alt="">
+                <p>Las Manzanas son áreas de la ciudad en las que se tiene la infraestructura y servicios para atender de manera próxima y simultánea a las cuidadoras y a sus familias.</p>
+            </div>
+            <div class="inscri">
+                <img class="ico" src="IMG/social.png" alt="">
+                <p>En una Manzana del Cuidado las cuidadoras y quienes ellas cuidan pueden encontrar colegios, jardines, parques, hospitales, centros de atención para personas mayores.</p>
+            </div>
+            <div class="inscri">
+                <img class="ico" src="IMG/cuaderno.png" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, illum voluptatem ea assumenda repellendus molestias necessitatibus accusamus.</p>
+            </div>
+        </div>
+    </section>
+    <!-- mapa -->
+    <div class="mapouter"><div class="gmap_canvas"><iframe width="100%" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=4.8175023794551235%2C+-75.69491631918385&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://textcaseconvert.com/"></a><br><a href="https://online-timer.me/"></a><br><style>.mapouter{position: relative;text-align: right;height: 500px;width: 100%px;}</style><a href="https://www.embedmaps.co">google maps on website</a><style>.gmap_canvas{overflow: hidden;background: none !important;height: 500px;width: 100%px;}</style></div></div>
+    <!-- contacto -->
+    <section class="contacto">
+        <h1>CONTACTANOS</h1>
+        <a href="tel:+59399999999" class="fa fa-phone"> 593 999999999</a>
+        <a href="mailto:<EMAIL>" class="fa fa-envelope"> manzanas_del_cuidado@gmail.com</a>
+        <a href="https://www.instagram.com/manzanasdelcuidado/" class="fa fa-instagram"> Instagram</a>
+        <a href="https://www.facebook.com/manzanasdelcuidado/" class="fa fa-facebook" > Facebook</a>
+        <a href="https://twitter.com/manzanasdelcuidado" class="fa fa-twitter"> Twitter</a>
+        <a href="https://www.linkedin.com/company/manzanas-del-cuidado/" class="fa fa-linkedin"> LinkedIn</a>
+        <a href="https://www.youtube.com/channel/UCU-999999999999999" class="fa fa-youtube"> Youtube</a>
+    </section>
+    <footer class="footer container">
+        <h6>Copyright &copy 2023 Manzanas del Cuidado</h6>
+    </footer>
+</body>
+</Html>
