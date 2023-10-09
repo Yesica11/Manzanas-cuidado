@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    background-image: url(../IMG/fondo.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+.login{
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 60px;
+    font-style: italic;
+    text-align: center;
+    color: black;
+}
